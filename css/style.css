@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 5000px;
+}
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 128, 128, 0.632);
+  position: sticky;
+  top: 0;
+}
+.navbar .logo img {
+  width: 100%;
+  display: block;
+}
+.list ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 15px;
+}
+li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
