@@ -6,6 +6,10 @@
 body {
   height: 5000px;
 }
+.conteiner {
+  width: 80%;
+  margin: auto;
+}
 .navbar {
   display: flex;
   flex-wrap: wrap;
@@ -29,4 +33,22 @@ li a {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
+}
+.portfolio {
+  text-align: center;
+  background-color: rgba(4, 249, 249, 0.681);
+}
+.portfolio-items {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 7px;
+}
+.portfolio-item {
+  width: 33.3%;
+  padding-right: 5px;
+}
+.portfolio-item img {
+  display: flex;
+  width: 100%;
 }
